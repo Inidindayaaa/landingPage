@@ -1,0 +1,108 @@
+.container {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.container h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.wrapper-img1,
+.wrapper-img2,
+img {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.wrapper-img1>img:hover {
+    width: 65%;
+}
+
+.wrapper-img2>img:hover {
+    width: 65%;
+}
+
+.wrapper-img1,
+.wrapper-img2 {
+    padding: 10px;
+}
+
+.row article {
+    text-align: justify;
+}
+
+.row,
+button {
+    text-align: center;
+}
+
+
+.image-1,
+.image-2 {
+    box-shadow: 11px 9px 34px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 11px 9px 34px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 9px 34px -8px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.desc {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.button {
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #fc036b;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s;
+}
+
+.button:hover span{
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
